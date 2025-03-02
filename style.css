@@ -1,0 +1,44 @@
+*{
+    body{
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(3, 3, 70);
+        height: 100vh;
+        width: 100vh;
+    }
+    .wrapper{
+        display: inline-flexbox;
+        justify-content: center;
+        align-items: center;
+    }
+    .cover{
+        justify-content:center;
+        align-items: center;
+        margin: 10px 10px;
+        padding: 10px 10px;
+    }
+    .my-photo{
+        width: 30vh;
+        height: 30vh;
+        border:solid;
+        border-color: green;
+        border-width:5px;
+        border-radius: 20vh;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    nav a{
+        margin-left: 20px;
+        color: black;
+        text-decoration: none;
+    }
+    nav a:hover{
+        color: greenyellow;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}
